@@ -11,4 +11,6 @@ Stretch goals I completed:
 - Add a Google Font
 
 
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
+
+
+[The Frontend Career Path](https://scrimba.com/learn/frontend)
