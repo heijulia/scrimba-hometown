@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0px;
+    text-align: center;  
+    font-family: 'Lato', sans-serif;
+}
+header {
+    background-image: url("images/header-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #221810;
+}
+
+#title {
+    margin: 10px;
+    font-weight: 600; 
+}
+
+#subtitle {
+    margin: 10px auto; 
+    max-width: 500px;
+    font-weight: 500; 
+}
+#subtitle > span {
+    font-style: italic; 
+}
+
+.columns {
+    display: flex; 
+    justify-content: center;
+}
+
+.activities {
+    margin: 30px auto 30px auto;
+    color: #221810; 
+}
+.activities > h2 {
+    color: #221810; 
+}
+.activities > h4 {
+    margin-bottom: 30px;
+    color: #221810;  
+    font-weight: 500;
+    font-style: italic;
+}
+
+.info-card {
+    width: 190px;
+    height: 335px;
+    background: #ebdecf;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.info-card > h4 {
+    font-weight: 600; 
+    font-size: 1.1em; 
+    color: #221810;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.info-card > p {
+    font-weight: 400; 
+    font-size: 1em; 
+    color: #221810;
+    margin-top: 10px;
+}
+.activity-img {
+    width: 185px;
+    height: 195px;
+    border-radius: 10px;
+}
+
+.guide {
+    margin: 50px auto;
+    padding-top: 15px;
+}
+
+#guide-card {
+    width: 400px;
+    height: 200px; 
+    background: #946144; 
+    padding: 10px;
+    box-shadow: 6px 6px 3px #e2c3a1;
+    border-radius: 10px;
+    margin: 30px auto 30px auto;
+    display: flex; 
+}
+
+#guide-card > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding-right: 5px;
+}
