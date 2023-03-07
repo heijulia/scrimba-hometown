@@ -13,4 +13,4 @@ Stretch goals I completed:
 
 
 
-[The Frontend Career Path](https://scrimba.com/learn/frontend)
+Scrimba: [The Frontend Career Path](https://scrimba.com/learn/frontend)
